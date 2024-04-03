@@ -15,6 +15,7 @@ module.exports = {
         secondaryMain: "#EAEAEA",
         bannerText: "#666",
         cardBlue: "#0070F3",
+        borderColor: "#EBEBEB",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

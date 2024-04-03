@@ -36,4 +36,7 @@ body {
   .container {
     @apply max-w-6xl mx-auto;
   }
+  .border-x-color {
+    @apply lg:border-x lg:border-borderColor;
+  }
 }

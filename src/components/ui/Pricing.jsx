@@ -16,7 +16,7 @@ import AcmeLogo from "../shared/AcmeLogo";
 
 const Pricing = () => {
   return (
-    <section>
+    <section className="p-12">
       <h1 className="text-[32px] font-bold text-primaryColor mb-3">
         Our Pricing
       </h1>

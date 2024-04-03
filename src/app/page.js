@@ -9,6 +9,8 @@ const Home = () => {
     <main>
       <article className="container">
         <New />
+      </article>
+      <article className="container border-x-color">
         <Banner />
         <Services />
         <Pricing />
