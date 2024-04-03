@@ -12,7 +12,7 @@ const Navbar = () => {
   const navItems = (
     <>
       <ul
-        className={`flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-5 mr-auto`}
+        className={`flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-5`}
       >
         <li className="py-3 lg:py-0 border-b lg:border-none border-borderColor">
           Pricing
@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center py-2 lg:py-3 px-3 lg:px-[32px] gap-10 bg-white">
       <AcmeLogo />
-      <div className="hidden lg:block">{navItems}</div>
+      <div className="hidden lg:block mr-auto">{navItems}</div>
       <div className="hidden lg:block">{navbarRight}</div>
 
       {/* for mobile and tablet */}
