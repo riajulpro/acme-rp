@@ -16,13 +16,13 @@ import AcmeLogo from "../shared/AcmeLogo";
 
 const Pricing = () => {
   return (
-    <section className="p-12">
+    <section className="my-10 lg:my-0 p-3 lg:p-12">
       <h1 className="text-[32px] font-bold text-primaryColor mb-3">
         Our Pricing
       </h1>
-      <div className="flex gap-5">
+      <div className="flex flex-col lg:flex-row gap-5">
         <div className="flex-1 flex flex-col gap-[10px]">
-          <div className="flex items-center gap-6 mb-12">
+          <div className="flex flex-wrap items-center gap-6 mb-3 lg:mb-12">
             <ActionButton variant="primary">
               Get 2 months free (switch to yearly)
             </ActionButton>
