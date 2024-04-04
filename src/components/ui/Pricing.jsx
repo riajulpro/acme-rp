@@ -20,8 +20,8 @@ const Pricing = () => {
       <h1 className="text-[32px] font-bold text-primaryColor mb-3">
         Our Pricing
       </h1>
-      <div className="flex flex-col lg:flex-row gap-8">
-        <div className="flex-1 flex flex-col gap-[10px]">
+      <div className="flex flex-col lg:flex-row lg:gap-8">
+        <div className="flex-1 flex flex-col lg:gap-[10px]">
           <div className="flex flex-wrap items-center gap-6 mb-3 lg:mb-9">
             <ActionButton variant="primary" padding="lg:px-[14px]">
               Get 2 months free (switch to yearly)

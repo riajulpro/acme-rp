@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <section className="lg:min-h-[450px] bg-banner-bg object-cover bg-white flex items-center justify-center">
       <div className="mt-8 lg:mt-0">
-        <h1 className="text-primaryColor text-center text-[20px] md:text-[30px] lg:text-[40px] font-medium max-w-[859px] leading-[48px] tracking-[-2.4px]">
+        <h1 className="text-primaryColor text-center text-[20px] md:text-[30px] lg:text-[40px] font-medium max-w-[859px] lg:leading-[48px] lg:tracking-[-2.4px]">
           Lorem Ipsum.{" "}
           <span className="text-bannerText">
             Testing, testing, <br />
