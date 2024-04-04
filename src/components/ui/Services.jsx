@@ -9,23 +9,27 @@ import Button from "../shared/Button";
 
 const Services = () => {
   return (
-    <section className="my-10 lg:my-0 flex flex-wrap lg:flex-nowrap p-3 lg:p-12 justify-center items-center gap-3 lg:gap-6">
-      <h1 className="text-[24px] font-semibold">Our Services:</h1>
-      <Button className="flex items-center justify-center gap-3">
-        <First /> Services
-      </Button>
-      <Button className="flex items-center justify-center gap-3">
-        <Second /> Services
-      </Button>
-      <Button className="flex items-center justify-center gap-3">
-        <Third /> Services
-      </Button>
-      <Button className="flex items-center justify-center gap-3">
-        <Fourth /> Services
-      </Button>
-      <Button className="flex items-center justify-center gap-3">
-        <Fifth /> Services
-      </Button>
+    <section className="my-10 lg:my-0 flex lg:flex-nowrap p-3 lg:py-11 lg:px-12 justify-center items-center gap-3 lg:gap-1 border-b border-borderColor">
+      <h1 className="text-[24px] font-semibold leading-[32px] tracking-[0.96px]">
+        Our Servers:
+      </h1>
+      <div className="flex items-center gap-4 flex-wrap">
+        <Button className="flex items-center justify-center gap-3">
+          <First /> Our Services
+        </Button>
+        <Button className="flex items-center justify-center gap-3">
+          <Second /> Our Services
+        </Button>
+        <Button className="flex items-center justify-center gap-3">
+          <Third /> Our Services
+        </Button>
+        <Button className="flex items-center justify-center gap-3">
+          <Fourth /> Our Services
+        </Button>
+        <Button className="flex items-center justify-center gap-3">
+          <Fifth /> Our Services
+        </Button>
+      </div>
     </section>
   );
 };

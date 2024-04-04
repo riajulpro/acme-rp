@@ -34,7 +34,7 @@ body {
 
 @layer components {
   .container {
-    @apply max-w-6xl mx-auto;
+    @apply max-w-[1078px] mx-auto;
   }
   .border-x-color {
     @apply lg:border-x lg:border-borderColor;

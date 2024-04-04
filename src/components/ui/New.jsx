@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 const New = () => {
   return (
-    <section className="flex flex-wrap md:flex-row justify-center items-center gap-3 py-4">
+    <section className="flex flex-wrap md:flex-row justify-center items-center gap-2 py-2">
       <button className="bg-secondaryColor text-[12px] font-medium py-[5px] px-[10px] rounded-full text-lightText">
         🎉New
       </button>

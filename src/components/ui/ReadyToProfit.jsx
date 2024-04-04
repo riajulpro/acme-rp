@@ -2,20 +2,26 @@ import ActionButton from "../shared/ActionButton";
 
 const ReadyToProfit = () => {
   return (
-    <section className="my-10 lg:my-0 flex flex-col lg:flex-row border-t border-borderColor">
+    <section className="my-10 lg:my-0 flex flex-col lg:flex-row border-t border-borderColor lg:mt-5">
       <div className="flex-1 p-3 lg:p-12">
-        <h1 className="text-[24px] max-w-2xl text-bannerText">
+        <h1 className="text-[24px] tracking-[-0.96px] leading-[32px] max-w-xl text-bannerText">
           <span className="font-bold text-primaryColor">Ready to profit?</span>{" "}
-          Start journaling your trades. Check out
+          Start journaling your trades.
+          <br />
+          Check out
           <span className="font-semibold text-primaryColor">
             {" "}
             VPS Lite
           </span> or <span className="text-cardBlue">VPS Pro</span> or{" "}
           <span className="text-cardBlue">VPS Max</span>
         </h1>
-        <div className="flex items-center gap-1 lg:gap-4 mt-6">
-          <ActionButton variant="primary">Deploy Now</ActionButton>
-          <ActionButton>View Dedicated Servers</ActionButton>
+        <div className="flex items-center gap-6 lg:gap-4 mt-6">
+          <ActionButton variant="primary" padding="lg:px-[10px]">
+            Deploy Now
+          </ActionButton>
+          <ActionButton padding="lg:px-[10px]">
+            View Dedicated Servers
+          </ActionButton>
         </div>
       </div>
       <div className="max-w-[358px] p-3 lg:p-12 border-t lg:border-l border-borderColor">
